@@ -1,0 +1,152 @@
+body
+{
+   font-family: 'Cabin', sans-serif;
+   font-size:1em;
+   padding:.75em;
+   margin: 0em auto;
+   max-width: 64em;
+   text-align: center;
+}
+
+#logo
+{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 32em;
+  padding-top: 1em;
+}
+
+header
+{
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-end;
+       margin: 0 auto;
+}
+
+
+nav a
+{
+    text-decoration: none;
+    color:black;
+}
+
+nav ul
+{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap:wrap;
+    margin-top:3em;
+    margin-bottom:2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color:black;
+}
+
+
+nav li
+{
+
+    background-color: orange;
+    border-radius: .25em;
+    padding:.5em .75em;
+    margin-left: .5em;
+}
+
+nav li:hover, nav li:active
+{
+    background-color: #2db2c4;
+
+}
+
+nav li a:hover, nav li a:active{
+    color:white;
+}
+
+
+
+#banner
+{
+margin-top:2em;
+background-color:#269;
+background-image: linear-gradient(white 2px, transparent 2px),
+linear-gradient(90deg, white 2px, transparent 2px),
+linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+width:100%;
+height:24vh;
+display:flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+h1
+{
+  font-size: 3.5em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  width: 20.5em;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%;
+    height:auto;
+}
+
+#dom
+{
+  margin-top:2em;
+  width: 100em;
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+  height: 30em;
+  width: 65em;
+}
+
+}
+
+h2
+{
+  text-align: center;
+
+}
+
+p
+{
+  line-height: 2em;
+  text-align:left;
+  font: verdana;
+}
